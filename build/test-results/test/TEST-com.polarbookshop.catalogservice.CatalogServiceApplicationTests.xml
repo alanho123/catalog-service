@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.polarbookshop.catalogservice.CatalogServiceApplicationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-03T03:08:13" hostname="JsMacBook-Pro.local" time="0.173">
+  <properties/>
+  <testcase name="whenPostRequestThenBookCreated()" classname="com.polarbookshop.catalogservice.CatalogServiceApplicationTests" time="0.172"/>
+  <testcase name="contextLoads()" classname="com.polarbookshop.catalogservice.CatalogServiceApplicationTests" time="0.0"/>
+  <system-out><![CDATA[2023-10-03T11:08:12.956+08:00  INFO 24474 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.polarbookshop.catalogservice.CatalogServiceApplicationTests]: CatalogServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-10-03T11:08:12.957+08:00  INFO 24474 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.polarbookshop.catalogservice.CatalogServiceApplication for test class com.polarbookshop.catalogservice.CatalogServiceApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.4)
+
+2023-10-03T11:08:12.968+08:00  INFO 24474 --- [    Test worker] c.p.c.CatalogServiceApplicationTests     : Starting CatalogServiceApplicationTests using Java 17.0.7 with PID 24474 (started by jason in /Users/jason/mylab/cloud-native-spring/catalog-service)
+2023-10-03T11:08:12.968+08:00  INFO 24474 --- [    Test worker] c.p.c.CatalogServiceApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2023-10-03T11:08:13.114+08:00  INFO 24474 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-10-03T11:08:13.118+08:00  INFO 24474 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-03T11:08:13.118+08:00  INFO 24474 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-03T11:08:13.153+08:00  INFO 24474 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-03T11:08:13.153+08:00  INFO 24474 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 184 ms
+2023-10-03T11:08:13.240+08:00  INFO 24474 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64544 (http) with context path ''
+2023-10-03T11:08:13.243+08:00  INFO 24474 --- [    Test worker] c.p.c.CatalogServiceApplicationTests     : Started CatalogServiceApplicationTests in 0.283 seconds (process running for 1.879)
+2023-10-03T11:08:13.327+08:00 ERROR 24474 --- [    Test worker] i.n.r.d.DnsServerAddressStreamProviders  : Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2023-10-03T11:08:13.420+08:00  INFO 24474 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-03T11:08:13.420+08:00  INFO 24474 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-03T11:08:13.420+08:00  INFO 24474 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.polarbookshop.catalogservice.BookJsonTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-09-28T09:27:29" hostname="JsMacBook-Pro.local" time="0.414">
+<testsuite name="com.polarbookshop.catalogservice.BookJsonTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-03T03:08:12" hostname="JsMacBook-Pro.local" time="0.07">
   <properties/>
-  <testcase name="testSerialize()" classname="com.polarbookshop.catalogservice.BookJsonTests" time="0.398"/>
-  <testcase name="testDeserialize()" classname="com.polarbookshop.catalogservice.BookJsonTests" time="0.015"/>
-  <system-out><![CDATA[17:27:29.501 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.polarbookshop.catalogservice.BookJsonTests]: BookJsonTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:27:29.550 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.polarbookshop.catalogservice.CatalogServiceApplication for test class com.polarbookshop.catalogservice.BookJsonTests
+  <testcase name="testSerialize()" classname="com.polarbookshop.catalogservice.BookJsonTests" time="0.05"/>
+  <testcase name="testDeserialize()" classname="com.polarbookshop.catalogservice.BookJsonTests" time="0.018"/>
+  <system-out><![CDATA[2023-10-03T11:08:12.802+08:00  INFO 24474 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.polarbookshop.catalogservice.BookJsonTests]: BookJsonTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-10-03T11:08:12.805+08:00  INFO 24474 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.polarbookshop.catalogservice.CatalogServiceApplication for test class com.polarbookshop.catalogservice.BookJsonTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,9 +14,9 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.4)
 
-2023-09-28T17:27:29.703+08:00  INFO 31940 --- [    Test worker] c.p.catalogservice.BookJsonTests         : Starting BookJsonTests using Java 17.0.7 with PID 31940 (started by jason in /Users/jason/mylab/cloud-native-spring/catalog-service)
-2023-09-28T17:27:29.704+08:00  INFO 31940 --- [    Test worker] c.p.catalogservice.BookJsonTests         : No active profile set, falling back to 1 default profile: "default"
-2023-09-28T17:27:29.864+08:00  INFO 31940 --- [    Test worker] c.p.catalogservice.BookJsonTests         : Started BookJsonTests in 0.283 seconds (process running for 0.688)
+2023-10-03T11:08:12.818+08:00  INFO 24474 --- [    Test worker] c.p.catalogservice.BookJsonTests         : Starting BookJsonTests using Java 17.0.7 with PID 24474 (started by jason in /Users/jason/mylab/cloud-native-spring/catalog-service)
+2023-10-03T11:08:12.818+08:00  INFO 24474 --- [    Test worker] c.p.catalogservice.BookJsonTests         : No active profile set, falling back to 1 default profile: "default"
+2023-10-03T11:08:12.857+08:00  INFO 24474 --- [    Test worker] c.p.catalogservice.BookJsonTests         : Started BookJsonTests in 0.05 seconds (process running for 1.493)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
