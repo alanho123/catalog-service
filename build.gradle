@@ -15,6 +15,10 @@ repositories {
     mavenCentral()
 }
 
+bootRun {
+    systemProperty 'spring.profiles.active', 'testdata'
+}
+
 configurations {
     compileOnly {
         extendsFrom annotationProcessor

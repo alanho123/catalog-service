@@ -7,3 +7,6 @@ server:
       max: 50 # default is 200
       min-spare: 5 # default is 10
 
+polar:
+  greeting: Welcome to the local book catalog!
+  test: true

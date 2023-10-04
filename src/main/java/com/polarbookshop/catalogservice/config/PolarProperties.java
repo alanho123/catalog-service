@@ -10,5 +10,10 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "polar")
 @Data
 public class PolarProperties {
+    /**
+     * A message to welcome users.
+     */
     private String greeting;
+    private String say;
+    private boolean test;
 }
