@@ -1,7 +1,7 @@
 package com.polarbookshop.catalogservice.persistence;
 
 import com.polarbookshop.catalogservice.domain.Book;
-import com.polarbookshop.catalogservice.domain.BookRepository;
+import com.polarbookshop.catalogservice.domain.MemoryBookRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.Map;
@@ -13,8 +13,9 @@ import java.util.concurrent.ConcurrentHashMap;
  * @since : 2023/9/28
  */
 @Repository
-public class InMemoryBookRepository implements BookRepository {
+public class InMemoryBookRepository implements MemoryBookRepository {
     private static final Map<String, Book> books = new ConcurrentHashMap<>();
+
     @Override
     public Iterable<Book> findAll() {
         return books.values();
