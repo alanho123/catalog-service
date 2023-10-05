@@ -22,7 +22,7 @@ public class BookDataLoaderTest {
 
     @EventListener(ApplicationReadyEvent.class)
     public void initTestData() {
-        var book1 = Book.of("9876543210", "BookDataLoaderTest", "tester", 11.11);
+        var book1 = Book.of("9876543210", "BookDataLoaderTest", "tester", 11.11, "Oreilly");
         bookRepository.save(book1);
     }
 }
