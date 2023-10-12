@@ -1,5 +1,3 @@
-FROM eclipse-termurin:17
-WORKDIR workspace
-ARG JAR_FILE=build/libs/*.jar
-COPY ${JAR_FILE} catalog-service.jar
-ENTRYPOINT ["java", "-jar", "catalog-service.jar"]
+FROM ubuntu:22.04
+RUN apt-get update && apt-get install -y default-jre
+ENTRYPOINT ["java", "--version"]
