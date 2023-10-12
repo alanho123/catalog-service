@@ -19,6 +19,11 @@ bootRun {
     systemProperty 'spring.profiles.active', 'testdata'
 }
 
+bootBuildImage {
+    imageName = "${project.name}"
+    environment = ["BP_JVM_VERSION" : "17.*"]
+}
+
 ext {
     set('springCloudVersion', "2022.0.4")
     set('testcontainersVersion', "1.17.3")
