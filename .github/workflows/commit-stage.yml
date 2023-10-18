@@ -37,15 +37,15 @@ jobs:
         run: |
           chmod +x gradlew
           ./gradlew build
-package:
-  name: Package and Publish
-  if: ${{ github.ref == 'refs/heads/main' }}
-  needs: [ build ]
-  runs-on: ubuntu-22.04
-  permissions:
-    contents: read
-    packages: write
-    security-events: write
+  package:
+    name: Package and Publish
+    if: ${{ github.ref == 'refs/heads/main' }}
+    needs: [ build ]
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: read
+      packages: write
+      security-events: write
     steps:
       - name: Checkout source code
         uses: actions/checkout@v3
